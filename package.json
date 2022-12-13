@@ -1,0 +1,23 @@
+{
+  "name": "pw-parallel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --workers=1 --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilo-fireside/pw-parallel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilo-fireside/pw-parallel/issues"
+  },
+  "homepage": "https://github.com/danilo-fireside/pw-parallel#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1"
+  }
+}
